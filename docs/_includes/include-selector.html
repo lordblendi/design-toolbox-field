@@ -1,0 +1,9 @@
+{% assign location = "https://tenforce.github.io/design-toolbox-selector" %}
+
+{% if site.url contains "localhost" %}
+  {% assign location = "http://localhost:4011" %}
+{% endif %}
+
+<link rel="stylesheet" href="{{ location }}/sass/toolbox-selector.css">
+
+<script type="text/javascript" src="{{location}}/scripts/components/toolbox-selector.js"></script>
