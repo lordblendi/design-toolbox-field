@@ -4,7 +4,7 @@ Fields and inputs component of the TenForce design toolbox.
 
 ## CSS
 
-This component is using a main CSS file.
+This component is using [one](https://github.com/tenforce/design-toolbox-field/blob/master/docs/sass/toolbox-field.scss) CSS file.
 
 ## HTML structure
 
@@ -14,6 +14,7 @@ The Design documentation was built in Jekyll using SASS and Liquid.
 <div class="toolbox-field">
   <div class="toolbox-field__label">Label</div>
   <div class="toolbox-field__data">
+    <div class="toolbox-field__error"></div>
     <div class="toolbox-field__value">
       <input class="toolbox-field__input" type="text" value="">
     </div>
@@ -33,7 +34,7 @@ Options:
   - [raw](https://github.com/tenforce/design-toolbox-field/blob/master/docs/sass/toolbox-field.scss)
 
 ### Jekyll
-Add [this file](https://github.com/tenforce/design-toolbox-field/tree/master/docs/import/include-field.html) to the another Jekyll project to include files from this project.
+Add [the content of this file](https://github.com/tenforce/design-toolbox-field/tree/master/docs/import/include-field.html) to the another Jekyll project to include files from this project.
 
 ## Dependencies
 - [Tailwind v0.6.4](https://tailwindcss.com)
