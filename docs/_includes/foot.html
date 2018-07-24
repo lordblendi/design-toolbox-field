@@ -5,18 +5,7 @@
       {% assign location = "http://localhost:4011" %}
     {% endif %}
   {% endcomment %}
-  <link rel="stylesheet" href="{{ location }}/sass/style.css">
-  <link rel="stylesheet" href="{{ location }}/sass/style-draggable.css">
   <script type="text/javascript" src="{{location}}/scripts/components/toolbox-selector.js"></script>
-
-{% comment %} table {% endcomment %}
-  {% assign location = "https://tenforce.github.io/design-toolbox-table" %}
-  {% comment %}
-    {% if site.url contains "localhost" %}
-      {% assign location = "http://localhost:4014" %}
-    {% endif %}
-  {% endcomment %}
-  <link rel="stylesheet" href="{{ location }}/sass/style.css">
 
 {% comment %} modal {% endcomment %}
   {% assign location = "https://tenforce.github.io/design-toolbox-modal" %}
@@ -25,7 +14,6 @@
       {% assign location = "http://localhost:4015" %}
     {% endif %}
   {% endcomment %}
-  <link rel="stylesheet" href="{{ location }}/sass/style.css">
   <script type="text/javascript" src="{{location}}/scripts/jquery-ui.min.js"></script>
   <script type="text/javascript" src="{{location}}/scripts/animation.js"></script>
   <script type="text/javascript" src="{{location}}/scripts/filter.js"></script>
